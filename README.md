@@ -8,6 +8,16 @@ This is a portfolio project. It does not process real orders, payments, or custo
 
 ---
 
+## Demo purpose
+
+This is not a real commercial website for an existing cheese brand, farm, or dairy.
+
+All brand names, product names, descriptions, prices, testimonials, contact details, and order-related content are fictional and used for demonstration purposes only.
+
+The project was created as a frontend portfolio demo to showcase a static e-commerce interface, product catalog, cart functionality, and a demo checkout flow.
+
+
+
 ## Live demo
 
 https://seacoffee.github.io/carpathian-cheese-house/
