@@ -8,6 +8,10 @@ This is a portfolio project. It does not process real orders, payments, or custo
 
 ---
 
+## Live demo
+
+https://seacoffee.github.io/carpathian-cheese-house/
+
 ## Project concept
 
 Carpathian Cheese House is a fictional local cheese producer inspired by small artisan dairies in the Ukrainian Carpathians.
