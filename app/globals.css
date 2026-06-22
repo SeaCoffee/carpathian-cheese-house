@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm Artisan Cheese Palette */
+    --background: 40 100% 96%;       /* #FFF7E8 warm cream */
+    --foreground: 22 27% 13%;       /* #2A1F18 espresso text */
+    --card: 39 100% 97%;            /* warm cream card surface */
+    --card-foreground: 22 27% 13%;  /* espresso text */
+    --popover: 39 100% 97%;         /* warm cream popover */
+    --popover-foreground: 22 27% 13%;
+    --primary: 136 33% 27%;         /* #2F5D3A deep dairy green */
+    --primary-foreground: 40 100% 96%; /* warm cream on green */
+    --secondary: 38 68% 55%;        /* #D9A441 aged cheese gold */
+    --secondary-foreground: 22 27% 13%; /* espresso on gold */
+    --muted: 39 65% 91%;             /* #F3E4C8 oat beige */
+    --muted-foreground: 28 34% 35%;  /* warm brown muted text */
+    --accent: 22 51% 44%;           /* #A85736 terracotta accent */
+    --accent-foreground: 40 100% 96%; /* warm cream on terracotta */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 40 100% 96%;
+    --border: 39 50% 85%;           /* soft oat/linen border */
+    --input: 39 50% 85%;            /* soft oat input */
+    --ring: 136 33% 27%;            /* dairy green ring */
+    --radius: 0.75rem;
+
+    /* Additional warm brand colors */
+    --warm-brown: 28 34% 33%;       /* #6F4E37 warm brown */
+    --butter-yellow: 45 80% 75%;    /* butter yellow accent */
+    --soft-caramel: 30 50% 60%;     /* caramel accent */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
